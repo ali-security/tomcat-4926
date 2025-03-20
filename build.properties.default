@@ -32,8 +32,8 @@
 version.major=10
 version.minor=1
 version.build=5
-version.patch=0
-version.suffix=
+version.patch=2
+version.suffix=+sp2
 version.dev=-dev
 
 # ----- Build tools -----
@@ -298,7 +298,7 @@ bnd.version=6.3.1
 # checksums for biz.aQute.bnd-6.3.1.jar
 bnd.checksum.enabled=true
 bnd.checksum.algorithm=MD5|SHA-1
-bnd.checksum.value=a812b31a81f05767ea11896a81cd8eab|8a359edbb02aad9138b7824a0d7bbe22f02cf990
+bnd.checksum.value=06bb0a51c208fc2f24c8cd54216b4b6f|c00993c55ccee432dd43f540e6f7c194fe946d20
 
 bnd.home=${base.path}/bnd-${bnd.version}
 bnd.jar=${bnd.home}/biz.aQute.bnd-${bnd.version}.jar

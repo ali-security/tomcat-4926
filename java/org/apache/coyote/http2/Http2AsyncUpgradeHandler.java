@@ -154,7 +154,7 @@ public class Http2AsyncUpgradeHandler extends Http2UpgradeHandler {
                 boolean active = state.isActive();
                 state.sendReset();
                 if (active) {
-                    activeRemoteStreamCount.decrementAndGet();
+                    decrementActiveRemoteStreamCount(getStream(se.getStreamId()));
                 }
             }
 
